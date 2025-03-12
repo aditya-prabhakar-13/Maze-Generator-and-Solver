@@ -20,10 +20,10 @@ where walls, paths, visited cells, and the solution path are displayed with diff
    ```bash
    pip install pygame
 ## How it Works
-- 1. Maze Generation
+-  Maze Generation
   - A grid is initialized with walls.
   - A randomized DFS carves out paths while ensuring a valid maze structure.
-- 2. Maze Solving (BFS)
+-  Maze Solving (BFS)
   - The solver explores neighbors using a queue, marking visited cells.
   - Once the exit is reached, it reconstructs the shortest path and displays it.
 ## Controls
